@@ -1,7 +1,6 @@
 {
     "recipes": {
         "nimzero/shyldre-bundle": [
-            "dev-master",
             "master"
         ]
     },
