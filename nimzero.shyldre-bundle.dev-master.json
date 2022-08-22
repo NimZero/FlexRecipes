@@ -3,7 +3,7 @@
         "nimzero/shyldre-bundle": {
             "manifest": {
                 "bundles": {
-                    "NimZero\\ShyldreBundle\\NimZeroShyldreBundle": [
+                    "Nimzero\\ShyldreBundle\\NimzeroShyldreBundle": [
                         "all"
                     ]
                 },
@@ -14,7 +14,7 @@
             "files": {
                 "config/packages/shyldre_bundle.yaml": {
                     "contents": [
-                        "shyldre_bundle:",
+                        "nimzero_shyldre:",
                         "",
                         "   # The following keys and secrets are sensitive you may want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
                         "",
