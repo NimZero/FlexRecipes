@@ -1,7 +1,8 @@
 {
     "recipes": {
         "nimzero/shyldre-bundle": [
-            "dev-master"
+            "dev-master",
+            "master"
         ]
     },
     "branch": "master",
