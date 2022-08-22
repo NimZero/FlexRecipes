@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "nimzero/shyldre-bundle": [
+            "1.0"
+        ]
+    },
+    "branch": "master",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/nimzero/flexrecipes",
+        "origin_template": "{package}:{version}@github.com/nimzero/flexrecipes:master",
+        "recipe_template": "https://api.github.com/repos/nimzero/flexrecipes/contents/{package_dotted}.{version}.json"
+    }
+}
