@@ -19,20 +19,21 @@
                         "   # The following keys and secrets are sensitive tou mays want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
                         "",
                         "   shyldre:",
-                        "",
                         "       # This key is required to generate the hash of the customer ID.",
                         "       hash_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
                         "   stripe:",
-                        "",
-                        "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'",
+                        "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
                         "       webhook_secret: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "",
+                        "       # The tolerance is the maximum allowed difference in seconds between the current timestamp and the timestamp in the request header.",
+                        "       tolerance: 300",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "1f69e66c7674c5d0181dd93005ea1e632e185f21"
+            "ref": "435934448e021f22280bc62e6c6e107cf84ae899"
         }
     }
 }
