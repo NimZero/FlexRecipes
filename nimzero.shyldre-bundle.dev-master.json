@@ -16,7 +16,7 @@
                     "contents": [
                         "shyldre_bundle:",
                         "",
-                        "   # The following keys and secrets are sensitive tou mays want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
+                        "   # The following keys and secrets are sensitive you may want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
                         "",
                         "   shyldre:",
                         "       # This key is required to generate the hash of the customer ID.",
@@ -33,7 +33,7 @@
                     "executable": false
                 }
             },
-            "ref": "435934448e021f22280bc62e6c6e107cf84ae899"
+            "ref": "cd60e6f7d94227c1d25e48dafe011b9848002f83"
         }
     }
 }
