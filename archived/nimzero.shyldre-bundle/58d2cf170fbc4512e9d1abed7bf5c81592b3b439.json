@@ -26,7 +26,7 @@
                         "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
                         "       api_secret_key: sk_live_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
-                        "       # This secret is used to validate the origin of the request. You can use the shyldre:webhook:create command to generate your webhook and get your signing secret.",
+                        "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
                         "       webhook_secret: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
                         "       # The tolerance is the maximum allowed difference in seconds between the current timestamp and the timestamp in the request header.",
@@ -36,7 +36,7 @@
                     "executable": false
                 }
             },
-            "ref": "f3083c3453f10f713a3d4476963843a9c73d6368"
+            "ref": "58d2cf170fbc4512e9d1abed7bf5c81592b3b439"
         }
     }
 }
