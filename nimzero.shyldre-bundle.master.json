@@ -20,9 +20,12 @@
                         "",
                         "   shyldre:",
                         "       # This key is required to generate the hash of the customer ID.",
-                        "       hash_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "       hash_key: sk_live_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
                         "   stripe:",
+                        "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
+                        "       api_secret_key: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "",
                         "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
                         "       webhook_secret: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
@@ -30,10 +33,10 @@
                         "       tolerance: 300",
                         ""
                     ],
-                    "executable": true
+                    "executable": false
                 }
             },
-            "ref": "cd60e6f7d94227c1d25e48dafe011b9848002f83"
+            "ref": "2e55359f936e081ff8a78c4a75a1507a6e5f02af"
         }
     }
 }
