@@ -24,7 +24,7 @@
                         "",
                         "   stripe:",
                         "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
-                        "       api_secret_key: sk_live_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "       api_secret_key: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                         "",
                         "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
                         "       webhook_secret: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -33,10 +33,10 @@
                         "       tolerance: 300",
                         ""
                     ],
-                    "executable": false
+                    "executable": true
                 }
             },
-            "ref": "58d2cf170fbc4512e9d1abed7bf5c81592b3b439"
+            "ref": "2e55359f936e081ff8a78c4a75a1507a6e5f02af"
         }
     }
 }
