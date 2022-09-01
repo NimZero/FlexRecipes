@@ -1,42 +1,38 @@
 {
-    "manifests": {
-        "nimzero/shyldre-bundle": {
-            "manifest": {
-                "bundles": {
-                    "Nimzero\\ShyldreBundle\\NimzeroShyldreBundle": [
-                        "all"
-                    ]
-                },
-                "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%"
-                }
-            },
-            "files": {
-                "config/packages/shyldre_bundle.yaml": {
-                    "contents": [
-                        "nimzero_shyldre:",
-                        "",
-                        "   ### The following keys and secrets are sensitive you may want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
-                        "",
-                        "   shyldre:",
-                        "       # This key is required to generate the hash of the customer ID.",
-                        "       hash_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                        "",
-                        "   stripe:",
-                        "       # This secret is used to validate the origin of the request. You can get it on your webhook page under 'Signing Secret'.",
-                        "       api_secret_key: sk_live_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                        "",
-                        "       # This secret is used to validate the origin of the request. You can use the shyldre:webhook:create command to generate your webhook and get your signing secret.",
-                        "       webhook_secret: whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                        "",
-                        "       # The tolerance is the maximum allowed difference in seconds between the current timestamp and the timestamp in the request header.",
-                        "       tolerance: 300",
-                        ""
-                    ],
-                    "executable": false
-                }
-            },
-            "ref": "f3083c3453f10f713a3d4476963843a9c73d6368"
+  "manifests": {
+    "nimzero/shyldre-bundle": {
+      "manifest": {
+        "bundles": {
+          "Nimzero\\ShyldreBundle\\NimzeroShyldreBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
         }
+      },
+      "files": {
+        "config/packages/shyldre_bundle.yaml": {
+          "contents": [
+            "nimzero_shyldre:",
+            "",
+            "    ### The following keys and secrets are sensitive you may want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
+            "",
+            "    shyldre:",
+            "        # This key is required to generate the hash of the customer ID.",
+            "        hash_key: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "",
+            "        # Enable the default entities see: https://github.com/NimZero/NimZeroShyldreBundle/tree/master/docs",
+            "        enable_default_entities: true",
+            "",
+            "        # Enable the default event listener (requires the default entities) see: https://github.com/NimZero/NimZeroShyldreBundle/tree/master/docs",
+            "        enable_default_event_listener: true",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "1c24daf782990e8643e25717b5c3ce4bac8e4a49"
     }
+  }
 }
