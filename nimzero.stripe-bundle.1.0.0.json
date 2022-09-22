@@ -24,6 +24,9 @@
             "    # The following keys and secrets are sensitive you may want to use secrets to store them: https://symfony.com/doc/current/configuration/secrets.html",
             "",
             "    stripe:",
+            "        # The Stripe api version to use, set to null to use your Stripe account version",
+            "        api_version: ~",
+            "",
             "        # Your stripe API keys.",
             "        api_secret_key: '%env(STRIPE_API_SECRET_KEY)%'",
             "        api_public_key: '%env(STRIPE_API_PUBLIC_KEY)%'",
@@ -38,7 +41,7 @@
           "executable": false
         }
       },
-      "ref": "8cd293cefc09a0a72905bd62d50e0d726e7a203e"
+      "ref": "f4d6db464d8b45b8865f857b88a006fb09b7a709"
     }
   }
 }
